@@ -5,7 +5,7 @@
 }
 
 .background{
-    background-color: midnightblue;
+    background-color: darkslategrey;
     color: rgb(245, 219, 185);
     height: 100vh;
     padding-top: 1px;
@@ -25,10 +25,10 @@
 }
 
 .playerX{
-    color:darkred;
+    color:rgb(85, 1, 1);
 }
 .playerO{
-    color:darkblue;
+    color:rgb(1, 1, 73);
 }
 .hide{
     display: none;

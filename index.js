@@ -51,13 +51,13 @@ console.log(tiles)
     const announce = (type) => {
         switch(type){
             case O:
-                announcer.innerHTML = 'Player <span class="playerO">O</span> Wins!';
+                announcer.innerHTML = '<h3>Player <span class="playerO">O</span> Wins!</h3>';
                 break;
             case X:
-                announcer.innerHTML = 'Player <span class="playerX">X</span> Wins!';
+                announcer.innerHTML = '<h3>Player <span class="playerX">X</span> Wins!</h3>';
                 break;
             case Tie:
-                announcer.innerText = 'Tie!';
+                announcer.innerHTML = '<h3>Tie!</h3>';
             }
         announcer.classList.remove('hide');
     }
