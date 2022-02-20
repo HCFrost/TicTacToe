@@ -1,0 +1,24 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "its tic tac toe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HCFrost/TicTacToe.git"
+  },
+  "author": "Hunter Frost",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HCFrost/TicTacToe/issues"
+  },
+  "homepage": "https://github.com/HCFrost/TicTacToe#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "http-server": "^14.1.0",
+    "jquery": "^3.6.0"
+  }
+}
